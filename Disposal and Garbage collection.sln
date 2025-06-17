@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disposal and Garbage collection", "Disposal and Garbage collection.csproj", "{DFA2516A-A12F-4328-88BD-FBE06EDEE6E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFA2516A-A12F-4328-88BD-FBE06EDEE6E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA2516A-A12F-4328-88BD-FBE06EDEE6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA2516A-A12F-4328-88BD-FBE06EDEE6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA2516A-A12F-4328-88BD-FBE06EDEE6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01B48F06-7310-4F2B-B0CE-9597E370FDD9}
+	EndGlobalSection
+EndGlobal
