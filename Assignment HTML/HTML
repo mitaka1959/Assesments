@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Basic HTML Website using Semantic Elements">
+    <meta name="author" content="Dimitar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdventureWorks Bikes</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to AdventureWorks</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Our Best-Selling Bikes</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Model</th>
+                        <th>Type</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Roadster X100</td>
+                        <td>Road Bike</td>
+                        <td>$899</td>
+                    </tr>
+                    <tr>
+                        <td>MountainPro XT</td>
+                        <td>Mountain Bike</td>
+                        <td>$1299</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="about">
+            <h2>About AdventureWorks</h2>
+            <p>AdventureWorks is a fictional bicycle company used in Microsoft SQL Server training. We pride ourselves on delivering quality bikes to happy customers worldwide.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AdventureWorks. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
